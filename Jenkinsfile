@@ -5,7 +5,7 @@ pipeline {
 
     stage('Git') {
       steps {
-        git branch: '', url: ''
+        git branch: 'main', url: 'https://github.com/Jergo009/Practica1SA2'
       }
     }
 
